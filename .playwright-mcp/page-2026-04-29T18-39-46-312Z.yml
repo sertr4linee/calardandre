@@ -1,0 +1,345 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "Calard André" [ref=e3] [cursor=pointer]:
+      - /url: "#hero"
+    - navigation [ref=e4]:
+      - link "L'Atelier" [ref=e5] [cursor=pointer]:
+        - /url: "#atelier"
+      - link "Métiers" [ref=e6] [cursor=pointer]:
+        - /url: "#metiers"
+      - link "Galerie" [ref=e7] [cursor=pointer]:
+        - /url: "#galerie"
+      - link "Zone" [ref=e8] [cursor=pointer]:
+        - /url: "#zone"
+    - link "06 22 06 05 79" [ref=e9] [cursor=pointer]:
+      - /url: tel:+33622060579
+  - main [ref=e10]:
+    - generic [ref=e11]:
+      - generic [ref=e14]:
+        - generic [ref=e15]: Maison fondée · Côte d'Azur
+        - generic [ref=e16]: N° 01 — Vitrine
+        - generic [ref=e17]: Anno · MMXXVI
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - generic [ref=e20]: Maître Tapissier
+          - heading "Calard André" [level=1] [ref=e22]:
+            - generic [ref=e23]: Calard
+            - generic [ref=e24]: André
+          - paragraph [ref=e25]: L'art du fauteuil restauré, point par point, brin par brin — sur la Côte d'Azur.
+          - generic [ref=e26]:
+            - generic [ref=e27]: Savoir-faire
+            - img [ref=e28]
+            - generic [ref=e30]: Rempaillage · Cannage · Capitonnage · Réparation
+          - generic [ref=e31]:
+            - generic [ref=e33]: Sur rendez‑vous
+            - link "06 22 06 05 79" [ref=e35] [cursor=pointer]:
+              - /url: tel:+33622060579
+              - generic [ref=e36]: 06 22 06 05 79
+          - generic [ref=e37]: Devis gratuit · Déplacement à domicile · Du Var à Monaco
+        - generic [ref=e38]:
+          - figure "Pl. I Fauteuil Louis XV — capitonné main, finitions à la française." [ref=e39]:
+            - img "Fauteuil Louis XV restauré — capitonnage tissu d'éditeur, dorure d'origine ravivée" [ref=e42]
+            - generic [ref=e45]:
+              - generic [ref=e46]: Pl. I
+              - generic [ref=e47]: Fauteuil Louis XV — capitonné main, finitions à la française.
+          - generic [ref=e48]: ★ ATELIER · TAPISSERIE D'AMEUBLEMENT ★
+      - generic [ref=e50]: Scroller
+    - generic [ref=e53]:
+      - generic [ref=e54]:
+        - generic [ref=e55]: I — L'Atelier
+        - img [ref=e56]
+      - generic [ref=e58]:
+        - generic [ref=e59]:
+          - heading "Le geste, transmis." [level=2] [ref=e60]:
+            - text: Le geste,
+            - generic [ref=e61]: transmis.
+          - figure "Pl. II — Patine d'eau · cannage main" [ref=e63]:
+            - img "Chaise Louis XV peinte en patine d'eau, fauteuil cabriolet cané" [ref=e65]
+            - generic [ref=e67]: Pl. II — Patine d'eau · cannage main
+        - generic [ref=e68]:
+          - paragraph [ref=e69]: Du rempaillage en paille de seigle au cannage tressé point par point, chaque siège retrouve la rigueur de sa structure d'origine. Le capitonnage se reprend au fil et au crin végétal, dans le respect des techniques héritées de l'ébénisterie française. Aucun raccourci, aucun agrafage moderne sur les pièces anciennes — la tradition exige le temps, la matière et la main.
+          - img [ref=e71]
+          - paragraph [ref=e73]: L'atelier intervient sur chaises de paille, fauteuils cannés, bergères, cabriolets, voltaires, crapauds, banquettes Napoléon III, fauteuils club, recliners modernes — du mobilier de famille à la pièce de collection.
+          - blockquote [ref=e74]:
+            - text: “
+            - paragraph [ref=e75]: Une chaise bien rempaillée se reconnaît sans la voir — elle se sent sous la main.
+            - generic [ref=e76]: — Tradition d'atelier
+    - generic [ref=e78]:
+      - generic [ref=e79]:
+        - generic [ref=e80]: II — Les Métiers
+        - img [ref=e81]
+      - heading "Quatre savoir-faire, une seule main." [level=2] [ref=e84]:
+        - text: Quatre savoir-faire,
+        - generic [ref=e85]: une seule main.
+      - generic [ref=e86]:
+        - article [ref=e87]:
+          - figure "Pl. III — Chaise paysanne · paille tressée main." [ref=e89]:
+            - img "Chaise rustique au siège tressé en paille naturelle, structure en bois patiné gris" [ref=e91]
+            - generic [ref=e95]: Pl. III — Chaise paysanne · paille tressée main.
+          - generic [ref=e96]:
+            - generic [ref=e98]: "01"
+            - heading "Rempaillage" [level=3] [ref=e100]
+            - paragraph [ref=e101]: à la paille de seigle
+            - paragraph [ref=e102]: Tressage à la main, brin par brin, en quatre passes croisées. Sur les chaises paysannes, les chaises de style provençal ou les sièges Louis‑Philippe, l'assise retrouve sa tension d'origine — souple, durable, silencieuse sous le poids.
+            - link "Demander un devis" [ref=e103] [cursor=pointer]:
+              - /url: tel:+33622060579
+              - text: Demander un devis
+              - generic [ref=e104]: →
+        - article [ref=e105]:
+          - figure "Pl. IV — Banquette corbeille · cannage main, six brins." [ref=e107]:
+            - img "Banquette cannée corbeille de style Louis XVI, dossier ovale tressé en rotin" [ref=e109]
+            - generic [ref=e113]: Pl. IV — Banquette corbeille · cannage main, six brins.
+          - generic [ref=e114]:
+            - generic [ref=e116]: "02"
+            - heading "Cannage" [level=3] [ref=e118]
+            - paragraph [ref=e119]: en éclisses de rotin
+            - paragraph [ref=e120]: Le cannage main, point par point, sur les fauteuils Louis XV, Louis XVI et Napoléon III. Travail au poinçon, six brins croisés, finition au bord de jonc. Possible également en cannage de feuille pour les pièces aux trames préfabriquées.
+            - link "Demander un devis" [ref=e121] [cursor=pointer]:
+              - /url: tel:+33622060579
+              - text: Demander un devis
+              - generic [ref=e122]: →
+        - article [ref=e123]:
+          - figure "Pl. V — Bergère · capitonnage crin végétal, tissu d'éditeur." [ref=e125]:
+            - img "Bergère Louis XV capitonnée en tissu floral bleu et crème, accotoirs sculptés" [ref=e127]
+            - generic [ref=e131]: Pl. V — Bergère · capitonnage crin végétal, tissu d'éditeur.
+          - generic [ref=e132]:
+            - generic [ref=e134]: "03"
+            - heading "Capitonnage" [level=3] [ref=e136]
+            - paragraph [ref=e137]: au crin & au fil de lin
+            - paragraph [ref=e138]: Pose de capitons traditionnels au crin animal et végétal, fixés au fil de lin sur sangles et ressorts montés au point cousu. Pour bergères, fauteuils Voltaire, crapauds, chesterfield. Tissus d'éditeur sur demande ou fournis par le client.
+            - link "Demander un devis" [ref=e139] [cursor=pointer]:
+              - /url: tel:+33622060579
+              - text: Demander un devis
+              - generic [ref=e140]: →
+        - article [ref=e141]:
+          - figure "Pl. VI — Fauteuil rotin · structure restaurée." [ref=e143]:
+            - img "Fauteuil en rotin tressé sur fond clair, restauration d'osier et structure" [ref=e145]
+            - generic [ref=e149]: Pl. VI — Fauteuil rotin · structure restaurée.
+          - generic [ref=e150]:
+            - generic [ref=e152]: "04"
+            - heading "Réparation" [level=3] [ref=e154]
+            - paragraph [ref=e155]: structure & garniture
+            - paragraph [ref=e156]: Recollage à la colle de poudre, reprise des assemblages à tenons‑mortaises, remplacement de sangles, ressorts, mousses ou crins, restauration de patines. Du fauteuil club au recliner contemporain — devis sur photos ou à domicile.
+            - link "Demander un devis" [ref=e157] [cursor=pointer]:
+              - /url: tel:+33622060579
+              - text: Demander un devis
+              - generic [ref=e158]: →
+    - generic [ref=e160]:
+      - generic [ref=e161]:
+        - generic [ref=e162]: III — Réalisations
+        - img [ref=e163]
+      - generic [ref=e165]:
+        - heading "Pièces passées par l'atelier." [level=2] [ref=e166]:
+          - generic [ref=e167]: Pièces
+          - generic [ref=e168]: passées par l'atelier.
+        - paragraph [ref=e169]: Quelques travaux récents — du siège paysan en paille au fauteuil de relaxation contemporain. Chaque pièce, son histoire.
+      - generic [ref=e170]:
+        - generic [ref=e171]:
+          - img "Chaise Louis XVI cannée avec médaillon brodé rouge et or" [ref=e172]
+          - generic [ref=e174]: Médaillon · cannage Louis XVI
+        - generic [ref=e175]:
+          - img "Fauteuil Louis XV recouvert de damas rouge" [ref=e176]
+          - generic [ref=e178]: Damas rouge · Louis XV
+        - generic [ref=e179]:
+          - img "Chaise médaillon en velours fuchsia" [ref=e180]
+          - generic [ref=e182]: Velours fuchsia · médaillon
+        - generic [ref=e183]:
+          - img "Fauteuil cabriolet retapissé en tissu graphique" [ref=e184]
+          - generic [ref=e186]: Cabriolet · tissu d'éditeur
+        - generic [ref=e187]:
+          - img "Fauteuil tonneau capitonné en tissu chenille beige" [ref=e188]
+          - generic [ref=e190]: Tonneau · chenille beige
+        - generic [ref=e191]:
+          - img "Fauteuil tub crème, capitonnage moderne" [ref=e192]
+          - generic [ref=e194]: Tub · capitonnage contemporain
+        - generic [ref=e195]:
+          - img "Série de fauteuils de bureau gris restaurés" [ref=e196]
+          - generic [ref=e198]: Sièges de bureau · réfection
+        - generic [ref=e199]:
+          - img "Fauteuil de relaxation en alcantara bordeaux" [ref=e200]
+          - generic [ref=e202]: Relax · alcantara bordeaux
+        - generic [ref=e203]:
+          - img "Fauteuil rotin restauré sur fond clair" [ref=e204]
+          - generic [ref=e206]: Rotin · structure restaurée
+      - img [ref=e208]
+      - paragraph [ref=e212]:
+        - text: Une pièce vous tient à cœur ? Envoyez‑nous quelques photos par SMS au
+        - link "06 22 06 05 79" [ref=e213] [cursor=pointer]:
+          - /url: tel:+33622060579
+        - text: pour un devis sans engagement.
+    - generic [ref=e215]:
+      - generic [ref=e216]:
+        - generic [ref=e217]: IV — Territoire
+        - img [ref=e218]
+      - heading "De Saint‑Tropez à Monaco." [level=2] [ref=e221]:
+        - generic [ref=e222]: De Saint‑Tropez
+        - generic [ref=e223]: à Monaco.
+      - generic [ref=e224]:
+        - generic [ref=e225]:
+          - paragraph [ref=e226]: L'atelier se déplace à domicile sur l'ensemble de la Côte d'Azur, du Var aux Alpes‑Maritimes. Mobilier encombrant, pièces fragiles, fauteuils de salon ou ensembles complets — l'enlèvement et la livraison sont assurés par nos soins, sans frais cachés.
+          - generic [ref=e227]:
+            - generic [ref=e228]:
+              - generic [ref=e229]: Devis
+              - generic [ref=e230]: Gratuit, sans engagement
+            - generic [ref=e231]:
+              - generic [ref=e232]: Délais
+              - generic [ref=e233]: Sur devis, selon la pièce
+            - generic [ref=e234]:
+              - generic [ref=e235]: Visite
+              - generic [ref=e236]: Sur rendez‑vous
+            - generic [ref=e237]:
+              - generic [ref=e238]: Pièces
+              - generic [ref=e239]: Anciennes & contemporaines
+        - generic [ref=e240]:
+          - generic [ref=e241]:
+            - generic [ref=e242]:
+              - heading "Var" [level=3] [ref=e243]
+              - generic [ref=e244]: "83"
+            - list [ref=e245]:
+              - listitem [ref=e246]:
+                - generic [ref=e247]: ✦
+                - text: Saint-Tropez
+              - listitem [ref=e248]:
+                - generic [ref=e249]: ✦
+                - text: Sainte-Maxime
+              - listitem [ref=e250]:
+                - generic [ref=e251]: ✦
+                - text: Grimaud
+              - listitem [ref=e252]:
+                - generic [ref=e253]: ✦
+                - text: Cogolin
+              - listitem [ref=e254]:
+                - generic [ref=e255]: ✦
+                - text: Le Lavandou
+              - listitem [ref=e256]:
+                - generic [ref=e257]: ✦
+                - text: Bormes-les-Mimosas
+              - listitem [ref=e258]:
+                - generic [ref=e259]: ✦
+                - text: Hyères
+              - listitem [ref=e260]:
+                - generic [ref=e261]: ✦
+                - text: Toulon
+              - listitem [ref=e262]:
+                - generic [ref=e263]: ✦
+                - text: Fréjus
+              - listitem [ref=e264]:
+                - generic [ref=e265]: ✦
+                - text: Saint-Raphaël
+              - listitem [ref=e266]:
+                - generic [ref=e267]: ✦
+                - text: Draguignan
+              - listitem [ref=e268]:
+                - generic [ref=e269]: ✦
+                - text: Brignoles
+          - generic [ref=e270]:
+            - generic [ref=e271]:
+              - heading "Alpes‑Maritimes" [level=3] [ref=e272]
+              - generic [ref=e273]: "06"
+            - list [ref=e274]:
+              - listitem [ref=e275]:
+                - generic [ref=e276]: ✦
+                - text: Cannes
+              - listitem [ref=e277]:
+                - generic [ref=e278]: ✦
+                - text: Mougins
+              - listitem [ref=e279]:
+                - generic [ref=e280]: ✦
+                - text: Mouans-Sartoux
+              - listitem [ref=e281]:
+                - generic [ref=e282]: ✦
+                - text: Antibes
+              - listitem [ref=e283]:
+                - generic [ref=e284]: ✦
+                - text: Juan-les-Pins
+              - listitem [ref=e285]:
+                - generic [ref=e286]: ✦
+                - text: Cagnes-sur-Mer
+              - listitem [ref=e287]:
+                - generic [ref=e288]: ✦
+                - text: Saint-Paul-de-Vence
+              - listitem [ref=e289]:
+                - generic [ref=e290]: ✦
+                - text: Nice
+              - listitem [ref=e291]:
+                - generic [ref=e292]: ✦
+                - text: Villefranche-sur-Mer
+              - listitem [ref=e293]:
+                - generic [ref=e294]: ✦
+                - text: Beaulieu-sur-Mer
+              - listitem [ref=e295]:
+                - generic [ref=e296]: ✦
+                - text: Saint-Jean-Cap-Ferrat
+              - listitem [ref=e297]:
+                - generic [ref=e298]: ✦
+                - text: Èze
+              - listitem [ref=e299]:
+                - generic [ref=e300]: ✦
+                - text: Cap-d'Ail
+              - listitem [ref=e301]:
+                - generic [ref=e302]: ✦
+                - text: Monaco
+              - listitem [ref=e303]:
+                - generic [ref=e304]: ✦
+                - text: Roquebrune-Cap-Martin
+              - listitem [ref=e305]:
+                - generic [ref=e306]: ✦
+                - text: Menton
+    - generic [ref=e308]:
+      - generic [ref=e309]:
+        - generic [ref=e310]: V — Sur rendez‑vous
+        - img [ref=e311]
+      - generic [ref=e313]:
+        - generic [ref=e314]:
+          - paragraph [ref=e315]: Composer le
+          - link "06 22 06 05 79" [ref=e316] [cursor=pointer]:
+            - /url: tel:+33622060579
+            - text: "06"
+            - generic [ref=e317]: "22"
+            - text: "06"
+            - generic [ref=e318]: "05"
+            - text: "79"
+          - paragraph [ref=e319]: Décrivez votre pièce en quelques mots, joignez deux ou trois photographies — nous vous rappelons dans la journée.
+        - generic [ref=e320]:
+          - generic [ref=e321]:
+            - paragraph [ref=e322]: Atelier
+            - paragraph [ref=e323]: Calard André
+            - paragraph [ref=e324]: Maître Tapissier — Côte d'Azur
+          - generic [ref=e325]:
+            - paragraph [ref=e326]: Zone d'intervention
+            - paragraph [ref=e327]:
+              - text: Var (83) · Alpes‑Maritimes (06)
+              - text: De Saint‑Tropez à Monaco
+          - generic [ref=e328]:
+            - paragraph [ref=e329]: Modalités
+            - paragraph [ref=e330]:
+              - text: Devis gratuit · sans engagement
+              - text: Déplacement à domicile
+              - text: Sur rendez‑vous
+      - img [ref=e332]
+  - contentinfo [ref=e334]:
+    - generic [ref=e335]:
+      - generic [ref=e336]:
+        - paragraph [ref=e337]: Calard André
+        - paragraph [ref=e338]: Maître Tapissier — MMXXVI
+      - navigation [ref=e339]:
+        - link "Accueil" [ref=e340] [cursor=pointer]:
+          - /url: "#hero"
+        - link "Atelier" [ref=e341] [cursor=pointer]:
+          - /url: "#atelier"
+        - link "Métiers" [ref=e342] [cursor=pointer]:
+          - /url: "#metiers"
+        - link "Galerie" [ref=e343] [cursor=pointer]:
+          - /url: "#galerie"
+        - link "Zone" [ref=e344] [cursor=pointer]:
+          - /url: "#zone"
+        - link "Contact" [ref=e345] [cursor=pointer]:
+          - /url: "#contact"
+      - generic [ref=e346]:
+        - link "06 22 06 05 79" [ref=e347] [cursor=pointer]:
+          - /url: tel:+33622060579
+        - paragraph [ref=e348]: Var (83) → Monaco (06)
+      - paragraph [ref=e349]: Rempaillage · Cannage · Capitonnage · Réparation de chaises et fauteuils — Côte d'Azur
+  - button "Open Next.js Dev Tools" [ref=e355] [cursor=pointer]:
+    - img [ref=e356]
+  - alert [ref=e359]
