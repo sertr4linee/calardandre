@@ -28,10 +28,11 @@ export function Contact() {
       />
 
       <div className="relative max-w-[1400px] mx-auto">
-        {/* Section eyebrow */}
-        <Reveal className="flex items-center gap-6 mb-16 sm:mb-20 text-cream/85">
+        {/* Section eyebrow — centered to match the rest of the section */}
+        <Reveal className="flex items-center justify-center gap-6 mb-16 sm:mb-20 text-cream/85">
+          <Ornament variant="bar" className="w-20 h-2 text-gold/70" />
           <span className="eyebrow text-gold-soft">V — Sur rendez‑vous</span>
-          <Ornament variant="bar" className="w-24 h-2 text-gold/70" />
+          <Ornament variant="bar" className="w-20 h-2 text-gold/70" />
         </Reveal>
 
         {/* Centered "Composer le" label */}
@@ -50,12 +51,12 @@ export function Contact() {
             className="group block text-center text-cream hover:text-gold-soft transition-colors duration-500"
             aria-label="Appeler le 06 22 06 05 79"
           >
-            <span className="font-display text-[clamp(2.6rem,11.5vw,9.5rem)] leading-[0.9] tracking-[-0.02em] lining-nums whitespace-nowrap inline-block">
-              06{" "}
-              <span className="font-display-italic text-gold">22</span>{" "}
-              <span>06</span>{" "}
-              <span className="font-display-italic text-gold">05</span>{" "}
-              79
+            <span className="font-display text-[clamp(2.6rem,11.5vw,9.5rem)] leading-[0.9] tracking-[0.01em] lining-nums whitespace-nowrap inline-flex items-baseline gap-[0.18em]">
+              <span>06</span>
+              <span className="font-display-italic text-gold px-[0.04em]">22</span>
+              <span>06</span>
+              <span className="font-display-italic text-gold px-[0.04em]">05</span>
+              <span>79</span>
             </span>
             <span
               aria-hidden
