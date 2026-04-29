@@ -51,11 +51,15 @@ export function Contact() {
             className="group block text-center text-cream hover:text-gold-soft transition-colors duration-500"
             aria-label="Appeler le 06 22 06 05 79"
           >
-            <span className="font-display text-[clamp(2.6rem,11.5vw,9.5rem)] leading-[0.9] tracking-[0.01em] lining-nums whitespace-nowrap inline-flex items-baseline gap-[0.18em]">
+            <span className="font-display text-[clamp(2.6rem,11vw,9rem)] leading-[0.9] lining-nums whitespace-nowrap inline-flex items-baseline">
               <span>06</span>
-              <span className="font-display-italic text-gold px-[0.04em]">22</span>
+              <span aria-hidden className="inline-block w-[0.42em]" />
+              <span className="font-display-italic text-gold">22</span>
+              <span aria-hidden className="inline-block w-[0.42em]" />
               <span>06</span>
-              <span className="font-display-italic text-gold px-[0.04em]">05</span>
+              <span aria-hidden className="inline-block w-[0.42em]" />
+              <span className="font-display-italic text-gold">05</span>
+              <span aria-hidden className="inline-block w-[0.5em]" />
               <span>79</span>
             </span>
             <span
