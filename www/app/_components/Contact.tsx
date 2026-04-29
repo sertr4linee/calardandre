@@ -5,84 +5,111 @@ export function Contact() {
   return (
     <section
       id="contact"
-      className="relative px-6 sm:px-10 py-28 sm:py-40 bg-ink text-cream overflow-hidden"
+      className="relative px-6 sm:px-10 py-28 sm:py-36 bg-ink text-cream overflow-hidden"
     >
-      {/* Subtle warm gradient overlay */}
+      {/* Warm radial glows */}
       <div
         aria-hidden
         className="absolute inset-0 pointer-events-none"
         style={{
           background:
-            "radial-gradient(80% 60% at 20% 0%, rgba(184,148,96,0.15), transparent 60%), radial-gradient(60% 60% at 90% 100%, rgba(139,58,31,0.25), transparent 60%)",
+            "radial-gradient(80% 60% at 18% 0%, rgba(184,148,96,0.16), transparent 60%), radial-gradient(70% 60% at 95% 100%, rgba(139,58,31,0.28), transparent 60%)",
+        }}
+      />
+      {/* Subtle paper grain just here */}
+      <div
+        aria-hidden
+        className="absolute inset-0 pointer-events-none opacity-[0.06] mix-blend-screen"
+        style={{
+          backgroundImage:
+            "radial-gradient(rgba(255,255,255,0.6) 1px, transparent 1.4px)",
+          backgroundSize: "3px 3px",
         }}
       />
 
       <div className="relative max-w-[1400px] mx-auto">
-        <Reveal className="flex items-center gap-6 mb-12 text-cream/80">
+        {/* Section eyebrow */}
+        <Reveal className="flex items-center gap-6 mb-16 sm:mb-20 text-cream/85">
           <span className="eyebrow text-gold-soft">V — Sur rendez‑vous</span>
           <Ornament variant="bar" className="w-24 h-2 text-gold/70" />
         </Reveal>
 
-        <div className="grid grid-cols-12 gap-x-6 gap-y-12 items-end">
-          <Reveal as="div" className="col-span-12 lg:col-span-7">
-            <p className="eyebrow text-gold-soft mb-8">Composer le</p>
-            <a
-              href="tel:+33622060579"
-              className="phone-cta block font-display text-cream hover:text-gold-soft text-[clamp(3rem,11vw,11rem)] leading-[0.9] tracking-tight lining-nums"
-              style={{ borderBottom: "none" }}
-            >
+        {/* Centered "Composer le" label */}
+        <Reveal className="text-center mb-6 sm:mb-8">
+          <p className="eyebrow text-gold-soft inline-flex items-center gap-3 justify-center">
+            <span className="inline-block w-6 h-px bg-gold/50" />
+            Composer le
+            <span className="inline-block w-6 h-px bg-gold/50" />
+          </p>
+        </Reveal>
+
+        {/* The phone number — full-width, contained, never overlapping */}
+        <Reveal className="relative">
+          <a
+            href="tel:+33622060579"
+            className="group block text-center text-cream hover:text-gold-soft transition-colors duration-500"
+            aria-label="Appeler le 06 22 06 05 79"
+          >
+            <span className="font-display text-[clamp(2.6rem,11.5vw,9.5rem)] leading-[0.9] tracking-[-0.02em] lining-nums whitespace-nowrap inline-block">
               06{" "}
               <span className="font-display-italic text-gold">22</span>{" "}
-              06{" "}
+              <span>06</span>{" "}
               <span className="font-display-italic text-gold">05</span>{" "}
               79
-            </a>
-            <p className="font-italic-soft italic text-cream/75 text-[1.15rem] mt-8 max-w-md">
-              Décrivez votre pièce en quelques mots, joignez deux ou trois
-              photographies — nous vous rappelons dans la journée.
+            </span>
+            <span
+              aria-hidden
+              className="block mx-auto mt-3 sm:mt-5 h-px w-0 group-hover:w-[40%] bg-gold/70 transition-all duration-700 ease-out"
+            />
+          </a>
+        </Reveal>
+
+        {/* Tagline below phone */}
+        <Reveal className="mt-10 sm:mt-14 text-center max-w-2xl mx-auto">
+          <p className="font-italic-soft italic text-cream/75 text-[1.1rem] sm:text-[1.25rem] leading-snug">
+            Décrivez votre pièce en quelques mots, joignez deux ou trois
+            photographies — nous vous rappelons dans la journée.
+          </p>
+        </Reveal>
+
+        {/* Decorative divider */}
+        <Reveal className="ornament-rule mt-20 sm:mt-28 mb-16 sm:mb-20 text-cream/45 max-w-3xl mx-auto">
+          <Ornament variant="diamond" className="w-20 h-3 text-gold/80" />
+        </Reveal>
+
+        {/* Three-column metadata row */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-8">
+          <Reveal className="md:border-r md:border-cream/15 md:pr-8">
+            <p className="eyebrow text-gold-soft mb-3">Atelier</p>
+            <p className="font-display-italic text-[1.45rem] text-cream leading-tight">
+              Calard André
+            </p>
+            <p className="font-italic-soft italic text-cream/70 mt-1">
+              Maître Tapissier — Côte d&apos;Azur
             </p>
           </Reveal>
 
-          <Reveal
-            as="div"
-            delay={150}
-            className="col-span-12 lg:col-span-4 lg:col-start-9 space-y-8"
-          >
-            <div className="border-t border-cream/25 pt-6">
-              <p className="eyebrow text-gold-soft mb-3">Atelier</p>
-              <p className="font-display-italic text-[1.4rem] text-cream">
-                Calard André
-              </p>
-              <p className="font-italic-soft italic text-cream/70 mt-1">
-                Maître Tapissier — Côte d&apos;Azur
-              </p>
-            </div>
+          <Reveal delay={120} className="md:border-r md:border-cream/15 md:px-8">
+            <p className="eyebrow text-gold-soft mb-3">Zone d&apos;intervention</p>
+            <p className="font-italic-soft italic text-cream/85 leading-relaxed">
+              Var <span className="lining-nums text-gold-soft">(83)</span> ·
+              Alpes‑Maritimes <span className="lining-nums text-gold-soft">(06)</span>
+              <br />
+              De Saint‑Tropez à Monaco
+            </p>
+          </Reveal>
 
-            <div className="border-t border-cream/25 pt-6">
-              <p className="eyebrow text-gold-soft mb-3">Zone d&apos;intervention</p>
-              <p className="font-italic-soft italic text-cream/85 leading-relaxed">
-                Var (83) · Alpes‑Maritimes (06)
-                <br />
-                De Saint‑Tropez à Monaco
-              </p>
-            </div>
-
-            <div className="border-t border-cream/25 pt-6">
-              <p className="eyebrow text-gold-soft mb-3">Modalités</p>
-              <p className="font-italic-soft italic text-cream/85 leading-relaxed">
-                Devis gratuit · sans engagement
-                <br />
-                Déplacement à domicile
-                <br />
-                Sur rendez‑vous
-              </p>
-            </div>
+          <Reveal delay={240} className="md:pl-8">
+            <p className="eyebrow text-gold-soft mb-3">Modalités</p>
+            <p className="font-italic-soft italic text-cream/85 leading-relaxed">
+              Devis gratuit · sans engagement
+              <br />
+              Déplacement à domicile
+              <br />
+              Sur rendez‑vous
+            </p>
           </Reveal>
         </div>
-
-        <Reveal className="mt-24 sm:mt-32 ornament-rule text-cream/50">
-          <Ornament variant="diamond" className="w-24 h-4 text-gold/80" />
-        </Reveal>
       </div>
     </section>
   );
