@@ -113,8 +113,8 @@ export function Hero() {
         </div>
       </div>
 
-      {/* Bottom marquee-style scroll cue */}
-      <div className="fade-1200 absolute bottom-6 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-ink-mute">
+      {/* Bottom scroll cue — desktop only, would overlap photo caption on mobile */}
+      <div className="fade-1200 hidden lg:flex absolute bottom-6 left-1/2 -translate-x-1/2 flex-col items-center gap-2 text-ink-mute">
         <span className="eyebrow-ink">Scroller</span>
         <span className="block w-px h-10 bg-ink/30" />
       </div>
