@@ -45,7 +45,7 @@ export function Zone() {
         </Reveal>
 
         <Reveal className="mb-16 sm:mb-20">
-          <h2 className="font-display text-[clamp(2.6rem,7vw,6.5rem)] leading-[0.9]">
+          <h2 className="font-display text-[clamp(2rem,7vw,6.5rem)] leading-[0.9]">
             <span className="block">De Saint‑Tropez</span>
             <span className="block font-display-italic text-ochre">
               à Monaco.
