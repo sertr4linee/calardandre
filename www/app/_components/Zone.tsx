@@ -94,14 +94,14 @@ export function Zone() {
           <Reveal
             as="div"
             delay={120}
-            className="col-span-12 lg:col-span-7 grid grid-cols-2 gap-x-8 gap-y-10"
+            className="col-span-12 lg:col-span-7 grid grid-cols-2 gap-x-6 sm:gap-x-8 gap-y-10"
           >
-            <div>
-              <header className="flex items-baseline justify-between border-b border-ink/40 pb-3 mb-6">
-                <h3 className="font-display-italic text-[1.55rem] text-ochre">
+            <div className="min-w-0">
+              <header className="flex items-baseline justify-between gap-2 border-b border-ink/40 pb-3 mb-6">
+                <h3 className="font-display-italic text-[1.25rem] sm:text-[1.55rem] text-ochre">
                   Var
                 </h3>
-                <span className="eyebrow-ink lining-nums">83</span>
+                <span className="eyebrow-ink lining-nums shrink-0">83</span>
               </header>
               <ul className="space-y-2 font-italic-soft italic text-[1.02rem] leading-[1.45] text-ink/85">
                 {var83.map((c) => (
@@ -115,12 +115,12 @@ export function Zone() {
               </ul>
             </div>
 
-            <div>
-              <header className="flex items-baseline justify-between border-b border-ink/40 pb-3 mb-6">
-                <h3 className="font-display-italic text-[1.55rem] text-ochre">
-                  Alpes‑Maritimes
+            <div className="min-w-0">
+              <header className="flex items-baseline justify-between gap-2 border-b border-ink/40 pb-3 mb-6">
+                <h3 className="font-display-italic text-[1.25rem] sm:text-[1.55rem] text-ochre break-words">
+                  Alpes-Maritimes
                 </h3>
-                <span className="eyebrow-ink lining-nums">06</span>
+                <span className="eyebrow-ink lining-nums shrink-0">06</span>
               </header>
               <ul className="space-y-2 font-italic-soft italic text-[1.02rem] leading-[1.45] text-ink/85">
                 {am06.map((c) => (
