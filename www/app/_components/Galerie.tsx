@@ -8,6 +8,7 @@ type Tile = {
   caption: string;
   span: string; // tailwind classes for col/row spans
   ratio: string;
+  sizes: string;
 };
 
 const tiles: Tile[] = [
@@ -17,6 +18,7 @@ const tiles: Tile[] = [
     caption: "Médaillon · cannage Louis XVI",
     span: "col-span-12 sm:col-span-6 lg:col-span-5 lg:row-span-2",
     ratio: "aspect-[3/4]",
+    sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 42vw",
   },
   {
     src: "/5.jpeg",
@@ -24,6 +26,7 @@ const tiles: Tile[] = [
     caption: "Damas rouge · Louis XV",
     span: "col-span-6 sm:col-span-3 lg:col-span-3",
     ratio: "aspect-[3/4]",
+    sizes: "(max-width: 640px) 50vw, (max-width: 1024px) 25vw, 25vw",
   },
   {
     src: "/8.jpeg",
@@ -31,6 +34,7 @@ const tiles: Tile[] = [
     caption: "Velours fuchsia · médaillon",
     span: "col-span-6 sm:col-span-3 lg:col-span-4",
     ratio: "aspect-[3/4]",
+    sizes: "(max-width: 640px) 50vw, (max-width: 1024px) 25vw, 33vw",
   },
   {
     src: "/9.jpeg",
@@ -38,6 +42,7 @@ const tiles: Tile[] = [
     caption: "Cabriolet · tissu d'éditeur",
     span: "col-span-12 sm:col-span-6 lg:col-span-3",
     ratio: "aspect-[3/4]",
+    sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw",
   },
   {
     src: "/6.jpeg",
@@ -45,6 +50,7 @@ const tiles: Tile[] = [
     caption: "Tonneau · chenille beige",
     span: "col-span-6 sm:col-span-3 lg:col-span-4",
     ratio: "aspect-[4/5]",
+    sizes: "(max-width: 640px) 50vw, (max-width: 1024px) 25vw, 33vw",
   },
   {
     src: "/10.jpeg",
@@ -52,6 +58,7 @@ const tiles: Tile[] = [
     caption: "Tub · capitonnage contemporain",
     span: "col-span-6 sm:col-span-3 lg:col-span-3",
     ratio: "aspect-[4/5]",
+    sizes: "(max-width: 640px) 50vw, (max-width: 1024px) 25vw, 25vw",
   },
   {
     src: "/1.jpeg",
@@ -59,6 +66,7 @@ const tiles: Tile[] = [
     caption: "Sièges de bureau · réfection",
     span: "col-span-12 sm:col-span-6 lg:col-span-7",
     ratio: "aspect-[16/10]",
+    sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 58vw",
   },
   {
     src: "/4.jpeg",
@@ -66,6 +74,7 @@ const tiles: Tile[] = [
     caption: "Relax · alcantara bordeaux",
     span: "col-span-6 sm:col-span-3 lg:col-span-2",
     ratio: "aspect-[3/4]",
+    sizes: "(max-width: 640px) 50vw, (max-width: 1024px) 25vw, 17vw",
   },
   {
     src: "/3.jpeg",
@@ -73,6 +82,7 @@ const tiles: Tile[] = [
     caption: "Rotin · structure restaurée",
     span: "col-span-6 sm:col-span-3 lg:col-span-3",
     ratio: "aspect-[1/1]",
+    sizes: "(max-width: 640px) 50vw, (max-width: 1024px) 25vw, 25vw",
   },
 ];
 
@@ -113,7 +123,7 @@ export function Galerie() {
                 src={t.src}
                 alt={t.alt}
                 fill
-                sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+                sizes={t.sizes}
                 className="object-cover"
               />
               <span aria-hidden className="absolute inset-0 ring-1 ring-ink/15" />
