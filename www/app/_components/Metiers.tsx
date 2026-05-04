@@ -19,7 +19,7 @@ const metiers: Metier[] = [
     italic: "à la paille de seigle",
     desc:
       "Tressage à la main, brin par brin, en quatre passes croisées. Sur les chaises paysannes, les chaises de style provençal ou les sièges Louis‑Philippe, l'assise retrouve sa tension d'origine — souple, durable, silencieuse sous le poids.",
-    image: "/image6.png",
+    image: "/1.jpeg",
     imageAlt:
       "Chaise rustique au siège tressé en paille naturelle, structure en bois patiné gris",
     caption: "Pl. III — Chaise paysanne · paille tressée main.",
@@ -30,7 +30,7 @@ const metiers: Metier[] = [
     italic: "en éclisses de rotin",
     desc:
       "Le cannage main, point par point, sur les fauteuils Louis XV, Louis XVI et Napoléon III. Travail au poinçon, six brins croisés, finition au bord de jonc. Possible également en cannage de feuille pour les pièces aux trames préfabriquées.",
-    image: "/image1.png",
+    image: "/7.jpeg",
     imageAlt:
       "Banquette cannée corbeille de style Louis XVI, dossier ovale tressé en rotin",
     caption: "Pl. IV — Banquette corbeille · cannage main, six brins.",
@@ -41,7 +41,7 @@ const metiers: Metier[] = [
     italic: "au crin & au fil de lin",
     desc:
       "Pose de capitons traditionnels au crin animal et végétal, fixés au fil de lin sur sangles et ressorts montés au point cousu. Pour bergères, fauteuils Voltaire, crapauds, chesterfield. Tissus d'éditeur sur demande ou fournis par le client.",
-    image: "/image5.png",
+    image: "/2.jpeg",
     imageAlt:
       "Bergère Louis XV capitonnée en tissu floral bleu et crème, accotoirs sculptés",
     caption: "Pl. V — Bergère · capitonnage crin végétal, tissu d'éditeur.",
@@ -52,7 +52,7 @@ const metiers: Metier[] = [
     italic: "structure & garniture",
     desc:
       "Recollage à la colle de poudre, reprise des assemblages à tenons‑mortaises, remplacement de sangles, ressorts, mousses ou crins, restauration de patines. Du fauteuil club au recliner contemporain — devis sur photos ou à domicile.",
-    image: "/image11.png",
+    image: "/4.jpeg",
     imageAlt:
       "Fauteuil en rotin tressé sur fond clair, restauration d'osier et structure",
     caption: "Pl. VI — Fauteuil rotin · structure restaurée.",

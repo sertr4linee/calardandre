@@ -77,7 +77,7 @@ export function Hero() {
             <div className="relative aspect-[4/5] w-full max-w-[480px] mx-auto lg:ml-auto lg:mr-0 frame-gold overflow-hidden">
               <div className="slow-zoom relative w-full h-full">
                 <Image
-                  src="/image3.png"
+                  src="/5.jpeg"
                   alt="Fauteuil Louis XV restauré — capitonnage tissu d'éditeur, dorure d'origine ravivée"
                   fill
                   priority

@@ -27,7 +27,7 @@ export function Atelier() {
               <figure className="relative">
                 <div className="relative aspect-[4/5] w-full max-w-[360px]">
                   <Image
-                    src="/image2.png"
+                    src="/3.jpeg"
                     alt="Chaise Louis XV peinte en patine d'eau, fauteuil cabriolet cané"
                     fill
                     sizes="360px"
@@ -85,7 +85,7 @@ export function Atelier() {
               <figure className="relative">
                 <div className="relative aspect-[4/5] w-full max-w-[360px] mx-auto">
                   <Image
-                    src="/image2.png"
+                    src="/3.jpeg"
                     alt="Chaise Louis XV peinte en patine d'eau, fauteuil cabriolet cané"
                     fill
                     sizes="360px"
